@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top:4.0rem;
+
+}
+h1{
+    margin: 1rem 0 2.5rem .5rem;
+}
+
+.footer-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    border-top: 2px solid black;
+    background-color: #eaeef6be;
+    color: #0A043C;
+}
+
+.info{
+    width: 50%;
+    align-self: center;
+    text-align: center;
+
+}
+
+.photo img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin: 1rem 1.2rem 1rem 1.5rem;
+    border-radius:5rem;
+}
+
+#accio-logo{
+    width: 8rem;
+    border-radius: 5rem;
+    margin: auto 1.2rem;
+}   
+.accio-logo{
+    text-align: center;
+} 
